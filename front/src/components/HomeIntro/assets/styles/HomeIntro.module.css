@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Ubuntu-Regular";
+    src: url("../fonts/ofont.ru_Ubuntu.ttf");
+}
+
+.HomeIntroWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 55%;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.HomeIntroImage {
+    padding-bottom: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.HomeIntroText {
+    display: inline-flex;
+    font-size: 1.75rem;
+    font-family: Ubuntu-Regular;
+    font-style: italic;
+    color: #00b856;
+}

@@ -1,0 +1,54 @@
+.GlobalWrapper {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TableWrapper {
+    height: 95%;
+    width: 95%;
+    padding: 20px;
+}
+
+.ToolsPanel {
+    height: 4%;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.UsersSearchInput {
+    padding: 5px 5px 5px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+    width: 15%;
+    min-height: 35px;
+    min-width: 180px;
+}
+
+.DisplayPanel {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.DisplayPanelVariant {
+    padding: 3px 8px 3px 8px;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 228);;
+    color: #a4d1b9;
+    cursor: pointer;
+}
+
+.DisplayVariantActive {
+    border: 2px solid #a4d1b9;
+}

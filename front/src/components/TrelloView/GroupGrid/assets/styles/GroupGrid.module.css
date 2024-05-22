@@ -1,0 +1,35 @@
+.GroupGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 2rem;
+    align-items: start;
+}
+
+.GroupColumn {
+    border: 2px solid #a4d1b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    max-height: 600px;
+    overflow-y: hidden;
+}
+
+.GroupColumnHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(145, 191, 240);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

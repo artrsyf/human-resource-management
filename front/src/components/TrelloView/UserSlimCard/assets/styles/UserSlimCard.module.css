@@ -1,0 +1,25 @@
+.SlimCardWrapper {
+    padding: 5px 0 5px 0;
+}
+
+.SlimCardContent {
+    background-color: #a4d1b9;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    gap: 6px;
+    padding: 10px 10px 10px 20px;
+}
+
+.SlimCardContentName {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.SlimCardContentUserInfoField {
+    font-weight: 400;
+    font-size: 0.95rem;
+    width: fit-content;
+}

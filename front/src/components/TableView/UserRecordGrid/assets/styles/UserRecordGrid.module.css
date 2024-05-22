@@ -1,0 +1,95 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #a4d1b9;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ThContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+tr:hover {
+    background-color: #e2f3ea;
+}
+
+.Pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.PaginationButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.PaginationButton {
+    padding: 8px;
+    border: 2px solid #a4d1b9;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.PaginationButton:disabled {
+    cursor: not-allowed;
+    color: #999;
+}
+
+.PaginationGoTo {
+    padding: 8px;
+    border: 2px solid #a4d1b9;
+    border-radius: 5px;
+    outline: none;
+    width: 5rem;
+}
+
+.PaginationGoTo::-webkit-outer-spin-button,
+.PaginationGoTo::-webkit-inner-spin-button {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }  
+
+.PaginationSelect {
+    padding: 8px;
+    border: 2px solid #a4d1b9;
+    border-radius: 5px;
+    outline: none;
+}
+
+@media screen and (max-width: 780px){
+    .Pagination {
+        flex-direction: column;
+    }
+}

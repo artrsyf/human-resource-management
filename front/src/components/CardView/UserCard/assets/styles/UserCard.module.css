@@ -1,0 +1,33 @@
+.CardWrapper {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 0 5px 0;
+}
+
+.CardContent {
+    background-color: #a4d1b9;
+    height: 300px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 6px;
+}
+
+.CardContentName {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.CardContentProfileImage {
+    width: 60%;
+    object-fit: cover;
+}
+
+.CardContentUserInfoField {
+    font-weight: 400;
+    font-size: 1.05rem;
+    width: fit-content;
+}

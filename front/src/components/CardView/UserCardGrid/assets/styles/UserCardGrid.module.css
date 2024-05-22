@@ -1,0 +1,35 @@
+.UserCardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.Pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.PaginationButton {
+    padding: 8px;
+    border: 2px solid #a4d1b9;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.PaginationButton:disabled {
+    cursor: not-allowed;
+    color: #999;
+}
+
+.PaginationSelect {
+    padding: 8px;
+    border: 2px solid #a4d1b9;
+    border-radius: 5px;
+    outline: none;
+}
