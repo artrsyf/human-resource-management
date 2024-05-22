@@ -32,7 +32,7 @@ function Users() {
   };
   
   useEffect(() => {
-    // TODO Загрузка данных (для примера используется локальный json) Подтягиваем с ендпоинта
+    // Пример подтягиваемых данных.
     // let data = [
     //   { "id": 1, "name": "John Doe", "account": "firstAcc", "email": "john@example.com", "group": "Руководство", "number": "+123(456)123-45-56" },
     //   { "id": 2, "name": "Jane Smith", "account": "secondAcc", "email": "jane@example.com", "group": "Бухгалтерия", "number": "+123(456)321-11-23" }
