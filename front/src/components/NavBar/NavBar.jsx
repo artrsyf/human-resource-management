@@ -18,7 +18,7 @@ function Navbar() {
     <div className="AppNav">
       <header className="AppNav-header">
         <nav className={styles.NavBar}>
-          <Link to="/" className={styles.Logo}>SafeBoard JS</Link>
+          <Link to="/" className={styles.Logo}>HR</Link>
           <ul className={`${styles.NavMenu} ${isActive ? styles.active : ''}`}>
             <li onClick={removeActive}>
               <Link to="/" className={`${styles.NavLink}`}>Главная</Link>

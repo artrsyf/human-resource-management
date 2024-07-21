@@ -8,10 +8,7 @@ function HomeIntro() {
     <div className={styles.HomeIntroWrapper}>
       <img className={styles.HomeIntroImage} src={image} alt="Intro"/>
       <div className={styles.HomeIntroText}>
-        Тестовое задание по направлению "Разработка JavaScript. SafeBoard H1 2024"
-      </div>
-      <div className={styles.HomeIntroText}>
-        Выполнил Фадеев Роман
+        Главная Страница
       </div>
     </div>
   );
